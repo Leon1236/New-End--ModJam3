@@ -29,25 +29,25 @@ public class Crafting
                 new Object[] {"###","# #", Character.valueOf('#'), ModItems.ItemEndIngot});
 		
 		GameRegistry.addRecipe(new ItemStack(ModItems.EndAxe, 1),
-                new Object[] {" ##"," S#"," S ", Character.valueOf('#'), ModItems.ItemEndIngot});
+                new Object[] {" ##"," S#"," S ", Character.valueOf('#'), ModItems.ItemEndIngot, Character.valueOf('S'), ModItems.ItemEndStick});
        
 		GameRegistry.addRecipe(new ItemStack(ModItems.EndAxe, 1),
-                new Object[] {"## ","#S "," S ", Character.valueOf('#'), ModItems.ItemEndIngot, Character.valueOf('S'), Item.stick});
+                new Object[] {"## ","#S "," S ", Character.valueOf('#'), ModItems.ItemEndIngot, Character.valueOf('S'), ModItems.ItemEndStick});
 		
 		GameRegistry.addRecipe(new ItemStack(ModItems.EndHoe, 1),
-                new Object[] {" ##"," S "," S ", Character.valueOf('#'), ModItems.ItemEndIngot, Character.valueOf('S'), Item.stick});
+                new Object[] {" ##"," S "," S ", Character.valueOf('#'), ModItems.ItemEndIngot, Character.valueOf('S'), ModItems.ItemEndStick});
        
 		GameRegistry.addRecipe(new ItemStack(ModItems.EndHoe, 1),
-                new Object[] {"## "," S "," S ", Character.valueOf('#'), ModItems.ItemEndIngot, Character.valueOf('S'), Item.stick});
+                new Object[] {"## "," S "," S ", Character.valueOf('#'), ModItems.ItemEndIngot, Character.valueOf('S'), ModItems.ItemEndStick});
 		
 		GameRegistry.addRecipe(new ItemStack(ModItems.EndPickaxe, 1),
-                new Object[] {"###"," S "," S ", Character.valueOf('#'), ModItems.ItemEndIngot, Character.valueOf('S'), Item.stick});
+                new Object[] {"###"," S "," S ", Character.valueOf('#'), ModItems.ItemEndIngot, Character.valueOf('S'), ModItems.ItemEndStick});
        
 		GameRegistry.addRecipe(new ItemStack(ModItems.EndShovel, 1),
-                new Object[] {"#","S","S", Character.valueOf('#'), ModItems.ItemEndIngot, Character.valueOf('S'), Item.stick});
+                new Object[] {"#","S","S", Character.valueOf('#'), ModItems.ItemEndIngot, Character.valueOf('S'), ModItems.ItemEndStick});
        
 		GameRegistry.addRecipe(new ItemStack(ModItems.EndSword, 1),
-                new Object[] {"#","#","S", Character.valueOf('#'), ModItems.ItemEndIngot, Character.valueOf('S'), Item.stick});
+                new Object[] {"#","#","S", Character.valueOf('#'), ModItems.ItemEndIngot, Character.valueOf('S'), ModItems.ItemEndStick});
        
 		GameRegistry.addRecipe(new ItemStack(ModItems.ItemEndStick, 4),
                 new Object[] {"#","#", Character.valueOf('#'), EndBlocks.BlockEndPlank,});

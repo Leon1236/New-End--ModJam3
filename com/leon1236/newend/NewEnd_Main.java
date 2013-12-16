@@ -74,6 +74,12 @@ public class NewEnd_Main {
      	// Loads all items 
   		ModItems.init();
   		
+  		//Vanilla End Ores
+  		EndVanillaBlocks.init();
+  		
+  		//IC2 End Ores
+  		EndIC2Blocks.init();
+  		
   		//Crafting
   		Crafting.loadrecipe();
   		
@@ -86,11 +92,6 @@ public class NewEnd_Main {
   		//Loads fuel handler
   		GameRegistry.registerFuelHandler(new FuelHandler());
   		
-  		//Vanilla End Ores
-  		EndVanillaBlocks.init();
-  		
-  		//IC2 End Ores
-  		EndIC2Blocks.init();
   	}
   	
 //init loads all gui's, listeners and more
