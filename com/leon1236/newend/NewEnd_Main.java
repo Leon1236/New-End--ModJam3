@@ -13,6 +13,7 @@ import com.leon1236.newend.core.handlers.LocalizationHandler;
 import com.leon1236.newend.items.ModItems;
 import com.leon1236.newend.lib.Crafting;
 import com.leon1236.newend.lib.EndClientProxy;
+import com.leon1236.newend.lib.EndCommonProxy;
 import com.leon1236.newend.lib.References;
 import com.leon1236.newend.lib.Tab_newend;
 import com.leon1236.newend.world.NewEnd_oregen;
@@ -48,7 +49,7 @@ public class NewEnd_Main {
 
 			clientSide 		= References.CLIENT_PROXY_LOCATION,
 			serverSide 		= References.COMMON_PROXY_LOCATION)
-            public static     EndClientProxy proxy;
+            public static     EndCommonProxy proxy;
 	
 	//Creative tab
     public static CreativeTabs Tab_newend = new Tab_newend(CreativeTabs.getNextID(), References.MOD_ID);

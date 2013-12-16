@@ -35,7 +35,7 @@ public class NewEnd_oregen implements IWorldGenerator
     	 
     	 (new NewEnd_oregenhelper(EndVanillaBlocks.BlockEndCoalOre.blockID, 15)).generate(world, random, Xcoord, Ycoord, Zcoord);
     	 (new NewEnd_oregenhelper(EndVanillaBlocks.BlockEndRedstoneOre.blockID, 15)).generate(world, random, Xcoord, Ycoord, Zcoord);
-    	 (new NewEnd_oregenhelper(EndVanillaBlocks.BlockEndLapisOre.blockID, 15)).generate(world, random, Xcoord, Ycoord, Zcoord);
+    	 (new NewEnd_oregenhelper(EndVanillaBlocks.BlockEndLapisOre.blockID, 13)).generate(world, random, Xcoord, Ycoord, Zcoord);
     	 (new NewEnd_oregenhelper(EndVanillaBlocks.BlockEndQuartzOre.blockID, 15)).generate(world, random, Xcoord, Ycoord, Zcoord);
     	 (new NewEnd_oregenhelper(EndVanillaBlocks.BlockEndIronOre.blockID, 15)).generate(world, random, Xcoord, Ycoord, Zcoord);
     	 (new NewEnd_oregenhelper(EndVanillaBlocks.BlockEndGoldOre.blockID, 15)).generate(world, random, Xcoord, Ycoord, Zcoord);
@@ -46,7 +46,7 @@ public class NewEnd_oregen implements IWorldGenerator
           
     	 for (int i = 0; i < 4; i++){
              int Xcoord1 = x + random.nextInt(16); //where in chuck it generates
-             int Ycoord1 = 10 + random.nextInt(60); //how high it generates
+             int Ycoord1 = 10 + random.nextInt(128); //how high it generates
              int Zcoord1 = z + random.nextInt(16); //where in chunk it generates
             
              new WorldEndTreeGen(false, 4, 0, 0, false).generate(world, random, Xcoord1, Ycoord1, Zcoord1);
