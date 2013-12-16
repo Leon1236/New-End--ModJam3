@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+        <comment>English (en_US) Localization File</comment>
+	
+    <entry key="itemGroup.newend">New End</entry>
+	
+	<entry key="tile.BlockEndOre.name">End Ore</entry>
+	<entry key="tile.BlockEndBrick.name">End Brick</entry>
+	<entry key="tile.BlockEndWood.name">End Wood</entry>
+	<entry key="tile.BlockEndPlank.name">End Plank</entry>
+	<entry key="tile.BlockEndBlock.name">End Block</entry>
+	<entry key="tile.BlockEndLeaves.name">End Wood Leaves</entry>
+	<entry key="tile.BlockEndSapling.name">End Wood Sapling</entry>
+	
+	<entry key="tile.BlockEndCoalOre.name">End Coal Ore</entry>
+	<entry key="tile.BlockEndRedstoneOre.name">End Redstone Ore</entry>
+	<entry key="tile.BlockEndLapisOre.name">End Lapis Ore</entry>
+	<entry key="tile.BlockEndQuartzOre.name">End Quartz Ore</entry>
+	<entry key="tile.BlockEndIronOre.name">End Iron Ore</entry>
+	<entry key="tile.BlockEndGoldOre.name">End Gold Ore</entry>
+	<entry key="tile.BlockEndDiamondOre.name">End Diamond Ore</entry>
+	<entry key="tile.BlockEndEmeraldOre.name">End Emerald Ore</entry>
+	
+	
+	
+	<entry key="item.ItemEndIngot.name">End Ingot</entry>
+	<entry key="item.ItemEndStick.name">End Stick</entry>
+	<entry key="item.ItemEndCoal.name">End Coal</entry>
+	<entry key="item.ItemEndCharcoal.name">End Charcoal</entry>
+	<entry key="item.ItemEndString.name">End String</entry>
+	
+	<entry key="item.ToolEndSword.name">End Sword</entry>
+	<entry key="item.ToolEndHoe.name">End Hoe</entry>
+	<entry key="item.ToolEndAxe.name">End Axe</entry>
+	<entry key="item.ToolEndPickaxe.name">End Pickaxe</entry>
+	<entry key="item.ToolEndShovel.name">End Shovel</entry>
+	
+	
+	
+	
+
+</properties>

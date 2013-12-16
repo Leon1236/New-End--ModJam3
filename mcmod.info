@@ -1,0 +1,16 @@
+[
+{
+    "modid": "newend",
+    "name": "New End",
+    "description": "Making End little more interesting to play in.",
+    "version": "0.0.1",
+    "credits": "",
+    "authors": ["Leon1236"],
+    "logoFile": "",
+    "url": "https://github.com/Leon1236/New-end--ModJam3",
+    "updateUrl": "",
+    "parent": "",
+    "screenshots": [],
+    "dependencies": []
+}
+]
