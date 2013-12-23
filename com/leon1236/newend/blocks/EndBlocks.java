@@ -43,7 +43,7 @@ public static void init(){
 	GameRegistry.registerBlock(BlockEndLeaves, Strings.BlockEndLeaves_NAME);
         }
 
-//Registers all of the materials into forge ore dictionary leavesTree 
+//Registers all of the materials into forge ore dictionary 
 	public static void oreRegistration(){
 		
           OreDictionary.registerOre("oreEnd", new ItemStack(BlockEndOre));

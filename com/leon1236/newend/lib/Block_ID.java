@@ -20,8 +20,12 @@ public class Block_ID {
         public static final int BlockEndDiamondOre_ID_DEFAULT = 3016;
         public static final int BlockEndEmeraldOre_ID_DEFAULT = 3017;
         
-    //En IC2 Ores
+    //End IC2 Ores
         public static final int BlockEndCopperOre_ID_DEFAULT = 3018;
+        public static final int BlockEndTinOre_ID_DEFAULT = 3019;
+        public static final int BlockEndLeadOre_ID_DEFAULT = 3020;
+        public static final int BlockEndBronzeOre_ID_DEFAULT = 3021;
+        public static final int BlockEndUraniumOre_ID_DEFAULT = 3022;
       
         
 //Mod Blocks
@@ -44,6 +48,10 @@ public class Block_ID {
         
 //End IC2 Ores
         public static int BlockEndCopperOre_ID;
+        public static int BlockEndTinOre_ID;
+        public static int BlockEndLeadOre_ID;
+        public static int BlockEndBronzeOre_ID;
+        public static int BlockEndUraniumOre_ID;
        
 
 }

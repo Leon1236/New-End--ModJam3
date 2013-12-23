@@ -45,6 +45,10 @@ public class ConfigurationHandler {
                         
                         //End IC2 Ores
                         Block_ID.BlockEndCopperOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndCopperOre_NAME, Block_ID.BlockEndCopperOre_ID_DEFAULT).getInt(Block_ID.BlockEndCopperOre_ID_DEFAULT);
+                        Block_ID.BlockEndTinOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndTinOre_NAME, Block_ID.BlockEndTinOre_ID_DEFAULT).getInt(Block_ID.BlockEndTinOre_ID_DEFAULT);
+                        Block_ID.BlockEndLeadOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndLeadOre_NAME, Block_ID.BlockEndLeadOre_ID_DEFAULT).getInt(Block_ID.BlockEndLeadOre_ID_DEFAULT);
+                        Block_ID.BlockEndBronzeOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndBronzeOre_NAME, Block_ID.BlockEndBronzeOre_ID_DEFAULT).getInt(Block_ID.BlockEndBronzeOre_ID_DEFAULT);
+                        Block_ID.BlockEndUraniumOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndUraniumOre_NAME, Block_ID.BlockEndUraniumOre_ID_DEFAULT).getInt(Block_ID.BlockEndUraniumOre_ID_DEFAULT);
                         
                         //Tools
                         Item_ID.EndAxe_ID = config.get(config.CATEGORY_ITEM, Strings.EndAxe_NAME, Item_ID.EndAxe_ID_DEFAULT).getInt(Item_ID.EndAxe_ID_DEFAULT);

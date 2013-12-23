@@ -1,6 +1,8 @@
 package com.leon1236.newend.blocks;
 
 import net.minecraft.block.Block;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
 
 import com.leon1236.newend.lib.Block_ID;
 import com.leon1236.newend.lib.Strings;
@@ -37,6 +39,16 @@ public class EndVanillaBlocks {
 		GameRegistry.registerBlock(BlockEndIronOre, Strings.BlockEndIronOre_NAME);
 		GameRegistry.registerBlock(BlockEndGoldOre, Strings.BlockEndGoldOre_NAME);
 		GameRegistry.registerBlock(BlockEndDiamondOre, Strings.BlockEndDiamondOre_NAME);
+		
+	//Registers all of the materials into forge ore dictionary 
+		OreDictionary.registerOre("oreCoal", new ItemStack(BlockEndCoalOre));
+		OreDictionary.registerOre("oreRedstone", new ItemStack(BlockEndRedstoneOre));
+		OreDictionary.registerOre("oreLapis", new ItemStack(BlockEndLapisOre));
+		OreDictionary.registerOre("oreQuartz", new ItemStack(BlockEndQuartzOre));
+		OreDictionary.registerOre("oreIron", new ItemStack(BlockEndIronOre));
+		OreDictionary.registerOre("oreGold", new ItemStack(BlockEndGoldOre));
+		OreDictionary.registerOre("oreDiamond", new ItemStack(BlockEndDiamondOre));
+		OreDictionary.registerOre("oreEmerald", new ItemStack(BlockEndEmeraldOre));
 		
 		
 	}

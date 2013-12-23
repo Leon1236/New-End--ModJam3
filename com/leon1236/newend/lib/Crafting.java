@@ -5,6 +5,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 import com.leon1236.newend.blocks.EndBlocks;
+import com.leon1236.newend.blocks.EndIC2Blocks;
 import com.leon1236.newend.blocks.EndVanillaBlocks;
 import com.leon1236.newend.items.ModItems;
 
@@ -74,6 +75,7 @@ public class Crafting
 		GameRegistry.addSmelting(EndBlocks.BlockEndOre.blockID, new ItemStack(ModItems.ItemEndIngot), 5.0F);
 		GameRegistry.addSmelting(EndBlocks.BlockEndWood.blockID, new ItemStack(ModItems.ItemEndCharcoal), 3.0F);
 		GameRegistry.addSmelting(EndVanillaBlocks.BlockEndGoldOre.blockID, new ItemStack(Item.ingotGold), 3.0F);
+		
 		
 	}
 }

@@ -22,7 +22,11 @@
 	<entry key="tile.BlockEndDiamondOre.name">End Diamond Ore</entry>
 	<entry key="tile.BlockEndEmeraldOre.name">End Emerald Ore</entry>
 	
-	
+	<entry key="tile.BlockEndCopperOre.name">End Copper Ore</entry>
+	<entry key="tile.BlockEndTinOre.name">End Tin Ore</entry>
+	<entry key="tile.BlockEndLeadOre.name">End Lead Ore</entry>
+	<entry key="tile.BlockEndBronzeOre.name">End Bronze Ore</entry>
+	<entry key="tile.BlockEndUraniumOre.name">End Uranium Ore</entry>
 	
 	<entry key="item.ItemEndIngot.name">End Ingot</entry>
 	<entry key="item.ItemEndStick.name">End Stick</entry>
@@ -35,6 +39,11 @@
 	<entry key="item.ToolEndAxe.name">End Axe</entry>
 	<entry key="item.ToolEndPickaxe.name">End Pickaxe</entry>
 	<entry key="item.ToolEndShovel.name">End Shovel</entry>
+	
+	<entry key="item.newendarmorHelmet.name">End Helmet</entry>
+	<entry key="item.newendarmorChestplate.name">End Chestplate</entry>
+	<entry key="item.newendarmorLeggings.name">End Leggings</entry>
+	<entry key="item.newendarmorBoots.name">End Boots</entry>
 	
 	
 	
