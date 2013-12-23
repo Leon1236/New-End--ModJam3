@@ -11,10 +11,12 @@ import com.leon1236.newend.blocks.EndVanillaBlocks;
 import com.leon1236.newend.core.handlers.ConfigurationHandler;
 import com.leon1236.newend.core.handlers.FuelHandler;
 import com.leon1236.newend.core.handlers.LocalizationHandler;
+import com.leon1236.newend.items.EndIC2Items;
 import com.leon1236.newend.items.ModItems;
 import com.leon1236.newend.lib.Crafting;
 import com.leon1236.newend.lib.EndClientProxy;
 import com.leon1236.newend.lib.EndCommonProxy;
+import com.leon1236.newend.lib.Integration;
 import com.leon1236.newend.lib.References;
 import com.leon1236.newend.lib.Tab_newend;
 import com.leon1236.newend.world.NewEnd_oregen;
@@ -103,6 +105,8 @@ public class NewEnd_Main {
   	 //IC2 integration
 	    if (Loader.isModLoaded("IC2")){
   		    EndIC2Blocks.init();
+  		    EndIC2Items.init();
+  		    Integration.IndustrialCraft();
 			System.out.println("New end IC2 integration enabled");}
 		else
 			System.out.println("IC2 not found");

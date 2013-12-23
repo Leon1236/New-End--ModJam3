@@ -39,6 +39,7 @@ public class EndVanillaBlocks {
 		GameRegistry.registerBlock(BlockEndIronOre, Strings.BlockEndIronOre_NAME);
 		GameRegistry.registerBlock(BlockEndGoldOre, Strings.BlockEndGoldOre_NAME);
 		GameRegistry.registerBlock(BlockEndDiamondOre, Strings.BlockEndDiamondOre_NAME);
+		GameRegistry.registerBlock(BlockEndEmeraldOre, Strings.BlockEndEmeraldOre_NAME);
 		
 	//Registers all of the materials into forge ore dictionary 
 		OreDictionary.registerOre("oreCoal", new ItemStack(BlockEndCoalOre));

@@ -45,6 +45,16 @@ public class Strings {
 		public static final String ItemEndCoal_NAME = "ItemEndCoal";
 		public static final String ItemEndString_NAME = "ItemEndString";
 		public static final String ItemEndCharcoal_NAME = "ItemEndCharcoal";
+	
+	//IC2 items
+		public static final String IC_EndCrushedOre_NAME = "IC_EndCrushedOre";
+		public static final String IC_EndPurifiedChrushedOre_NAME = "IC_EndPurifiedChrushedOre";
+		public static final String IC_EndDustSmall_NAME = "IC_EndDustSmall";
+		public static final String IC_EndDust_NAME = "IC_EndDust";
+		public static final String IC_EndPlate_NAME = "IC_EndPlate";
+		public static final String IC_EndDensePlate_NAME = "IC_EndDensePlate";
+		public static final String IC_EndMixedMetalIngot_NAME = "IC_EndMixedMetalIngot";
+		public static final String IC_EndCasing_NAME = "IC_EndCasing";
 		
     //Tools
 		public static final String EndSword_NAME = "ToolEndSword";

@@ -47,6 +47,15 @@
 	<entry key="item.newendarmorLeggings.name">End Leggings</entry>
 	<entry key="item.newendarmorBoots.name">End Boots</entry>
 	
+	<entry key="item.IC_EndCrushedOre.name">Crushed End Ore</entry>
+	<entry key="item.IC_EndPurifiedChrushedOre.name">Purified Chrushed End Ore</entry>
+	<entry key="item.IC_EndDustSmall.name">Small End Dust</entry>
+	<entry key="item.IC_EndDust.name">End Dust</entry>
+	<entry key="item.IC_EndPlate.name">End Plate</entry>
+	<entry key="item.IC_EndDensePlate.name">Dense End Plate</entry>
+	<entry key="item.IC_EndMixedMetalIngot.name">End Mixed Metal Ingot</entry>
+	<entry key="item.IC_EndCasing.name">End Casing</entry>
+	
 	
 	
 	

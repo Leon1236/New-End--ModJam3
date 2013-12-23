@@ -17,6 +17,15 @@ public class Item_ID {
         public static final int ItemEndArmor_Leggings_ID_DEFAULT = 12012;
         public static final int ItemEndArmor_Boots_ID_DEFAULT = 12013;
         
+        public static final int IC_EndCrushedOre_ID_DEFAULT = 12014;
+        public static final int IC_EndPurifiedChrushedOre_ID_DEFAULT = 12015;
+        public static final int IC_EndDustSmall_ID_DEFAULT = 12016;
+        public static final int IC_EndDust_ID_DEFAULT = 12017;
+        public static final int IC_EndPlate_ID_DEFAULT = 12018;
+        public static final int IC_EndDensePlate_ID_DEFAULT = 12019;
+        public static final int IC_EndMixedMetalIngot_ID_DEFAULT = 12020;
+        public static final int IC_EndCasing_ID_DEFAULT = 12021;
+        
        
         public static int EndSword_ID;
         public static int EndShovel_ID;
@@ -32,6 +41,15 @@ public class Item_ID {
         public static int ItemEndArmor_Chestplate_ID;
         public static int ItemEndArmor_Leggings_ID;
         public static int ItemEndArmor_Boots_ID;
+        
+        public static int IC_EndCrushedOre_ID;
+        public static int IC_EndPurifiedChrushedOre_ID;
+        public static int IC_EndDustSmall_ID;
+        public static int IC_EndDust_ID;
+        public static int IC_EndPlate_ID;
+        public static int IC_EndDensePlate_ID;
+        public static int IC_EndMixedMetalIngot_ID;
+        public static int IC_EndCasing_ID;
         
         
 }

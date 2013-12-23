@@ -52,7 +52,17 @@ public class ConfigurationHandler {
                         Block_ID.BlockEndLeadOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndLeadOre_NAME, Block_ID.BlockEndLeadOre_ID_DEFAULT).getInt(Block_ID.BlockEndLeadOre_ID_DEFAULT);
                         Block_ID.BlockEndBronzeOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndBronzeOre_NAME, Block_ID.BlockEndBronzeOre_ID_DEFAULT).getInt(Block_ID.BlockEndBronzeOre_ID_DEFAULT);
                         Block_ID.BlockEndUraniumOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndUraniumOre_NAME, Block_ID.BlockEndUraniumOre_ID_DEFAULT).getInt(Block_ID.BlockEndUraniumOre_ID_DEFAULT);
-                        }
+                        
+                        Item_ID.IC_EndCrushedOre_ID = config.get(config.CATEGORY_ITEM, Strings.IC_EndCrushedOre_NAME, Item_ID.IC_EndCrushedOre_ID_DEFAULT).getInt(Item_ID.IC_EndCrushedOre_ID_DEFAULT);
+                        Item_ID.IC_EndPurifiedChrushedOre_ID = config.get(config.CATEGORY_ITEM, Strings.IC_EndPurifiedChrushedOre_NAME, Item_ID.IC_EndPurifiedChrushedOre_ID_DEFAULT).getInt(Item_ID.IC_EndPurifiedChrushedOre_ID_DEFAULT);
+                        Item_ID.IC_EndDustSmall_ID = config.get(config.CATEGORY_ITEM, Strings.IC_EndDustSmall_NAME, Item_ID.IC_EndDustSmall_ID_DEFAULT).getInt(Item_ID.IC_EndDustSmall_ID_DEFAULT);
+                        Item_ID.IC_EndDust_ID = config.get(config.CATEGORY_ITEM, Strings.IC_EndDust_NAME, Item_ID.IC_EndDust_ID_DEFAULT).getInt(Item_ID.IC_EndDust_ID_DEFAULT);
+                        Item_ID.IC_EndPlate_ID = config.get(config.CATEGORY_ITEM, Strings.IC_EndPlate_NAME, Item_ID.IC_EndPlate_ID_DEFAULT).getInt(Item_ID.IC_EndPlate_ID_DEFAULT);
+                        Item_ID.IC_EndDensePlate_ID = config.get(config.CATEGORY_ITEM, Strings.IC_EndDensePlate_NAME, Item_ID.IC_EndDensePlate_ID_DEFAULT).getInt(Item_ID.IC_EndDensePlate_ID_DEFAULT);
+                        Item_ID.IC_EndMixedMetalIngot_ID = config.get(config.CATEGORY_ITEM, Strings.IC_EndMixedMetalIngot_NAME, Item_ID.IC_EndMixedMetalIngot_ID_DEFAULT).getInt(Item_ID.IC_EndMixedMetalIngot_ID_DEFAULT);
+                        Item_ID.IC_EndCasing_ID = config.get(config.CATEGORY_ITEM, Strings.IC_EndCasing_NAME, Item_ID.IC_EndCasing_ID_DEFAULT).getInt(Item_ID.IC_EndCasing_ID_DEFAULT);
+                     
+                     }
                         
                         //End Forestry Ores
                         Block_ID.BlockEndApatiteOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndApatiteOre_NAME, Block_ID.BlockEndApatiteOre_ID_DEFAULT).getInt(Block_ID.BlockEndApatiteOre_ID_DEFAULT);

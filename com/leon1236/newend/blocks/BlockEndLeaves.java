@@ -124,5 +124,73 @@ public class BlockEndLeaves extends BlockLeavesBase implements IShearable {
     {
         return false;
     }
+  //The BlockEndOre ore sparkles.
+    public void onBlockClicked(World par1World, int par2, int par3, int par4, EntityPlayer par5EntityPlayer)
+    {
+        this.glow(par1World, par2, par3, par4);
+        super.onBlockClicked(par1World, par2, par3, par4, par5EntityPlayer);
+    }
+    private void glow(World par1World, int par2, int par3, int par4)
+    {
+        this.sparkle(par1World, par2, par3, par4);
+
+    }
+    
+	@SideOnly(Side.CLIENT)
+
+    public void randomDisplayTick(World par1World, int par2, int par3, int par4, Random par5Random)
+    {
+            this.sparkle(par1World, par2, par3, par4);
+        }
+        
+    private void sparkle(World par1World, int par2, int par3, int par4)
+        {
+            Random random = par1World.rand;
+            double d0 = 0.0625D;
+
+            for (int l = 0; l < 6; ++l)
+            {
+                double d1 = (double)((float)par2 + random.nextFloat());
+                double d2 = (double)((float)par3 + random.nextFloat());
+                double d3 = (double)((float)par4 + random.nextFloat());
+
+                if (l == 0 && !par1World.isBlockOpaqueCube(par2, par3 + 1, par4))
+                {
+                    d2 = (double)(par3 + 1) + d0;
+                }
+
+                if (l == 1 && !par1World.isBlockOpaqueCube(par2, par3 - 1, par4))
+                {
+                    d2 = (double)(par3 + 0) - d0;
+                }
+
+                if (l == 2 && !par1World.isBlockOpaqueCube(par2, par3, par4 + 1))
+                {
+                    d3 = (double)(par4 + 1) + d0;
+                }
+
+                if (l == 3 && !par1World.isBlockOpaqueCube(par2, par3, par4 - 1))
+                {
+                    d3 = (double)(par4 + 0) - d0;
+                }
+
+                if (l == 4 && !par1World.isBlockOpaqueCube(par2 + 1, par3, par4))
+                {
+                    d1 = (double)(par2 + 1) + d0;
+                }
+
+                if (l == 5 && !par1World.isBlockOpaqueCube(par2 - 1, par3, par4))
+                {
+                    d1 = (double)(par2 + 0) - d0;
+                }
+
+                if (d1 < (double)par2 || d1 > (double)(par2 + 1) || d2 < 0.0D || d2 > (double)(par3 + 1) || d3 < (double)par4 || d3 > (double)(par4 + 1))
+                {
+                    par1World.spawnParticle("portal", d1, d2, d3, 0.0D, 0.0D, 0.0D);
+                  
+                }
+            }
+        }
+    
 
 }

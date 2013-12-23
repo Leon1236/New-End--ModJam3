@@ -7,6 +7,7 @@ import net.minecraft.item.ItemStack;
 import com.leon1236.newend.blocks.EndBlocks;
 import com.leon1236.newend.blocks.EndIC2Blocks;
 import com.leon1236.newend.blocks.EndVanillaBlocks;
+import com.leon1236.newend.items.EndIC2Items;
 import com.leon1236.newend.items.ModItems;
 
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -59,10 +60,10 @@ public class Crafting
 		GameRegistry.addRecipe(new ItemStack(ModItems.ItemEndString, 3),
                 new Object[] {"#S","#S","#S", Character.valueOf('#'), ModItems.ItemEndIngot,Character.valueOf('S'), Item.silk});
 		
-		GameRegistry.addRecipe(new ItemStack(EndBlocks.BlockEndBlock, 3),
+		GameRegistry.addRecipe(new ItemStack(EndBlocks.BlockEndBlock, 1),
                 new Object[] {"###","###","###", Character.valueOf('#'), ModItems.ItemEndIngot});
 		
-		GameRegistry.addRecipe(new ItemStack(EndBlocks.BlockEndBrick, 3),
+		GameRegistry.addRecipe(new ItemStack(EndBlocks.BlockEndBrick, 4),
                 new Object[] {"##","##", Character.valueOf('#'), Block.whiteStone});
 		
 		
@@ -74,7 +75,12 @@ public class Crafting
 
 		GameRegistry.addSmelting(EndBlocks.BlockEndOre.blockID, new ItemStack(ModItems.ItemEndIngot), 5.0F);
 		GameRegistry.addSmelting(EndBlocks.BlockEndWood.blockID, new ItemStack(ModItems.ItemEndCharcoal), 3.0F);
+		GameRegistry.addSmelting(EndVanillaBlocks.BlockEndIronOre.blockID, new ItemStack(Item.ingotIron), 3.0F);
 		GameRegistry.addSmelting(EndVanillaBlocks.BlockEndGoldOre.blockID, new ItemStack(Item.ingotGold), 3.0F);
+	
+
+		
+		
 		
 		
 	}
