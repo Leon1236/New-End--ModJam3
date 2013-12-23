@@ -29,15 +29,15 @@ public class Strings {
 		public static final String BlockEndUraniumOre_NAME = "BlockEndUraniumOre";
 		
 		//Forestry Blocks
-		public static final String BlockEndApatite_NAME = "BlockEndApatite";
+		public static final String BlockEndApatiteOre_NAME = "BlockEndApatiteOre";
 		
 		//Extra Blocks
-		public static final String BlockEndAluminium_NAME = "BlockEndAluminium";
-		public static final String BlockEndPlatinum_NAME = "BlockEndPlatinum";
-		public static final String BlockEndSilver_NAME = "BlockEndSilver";
-		public static final String BlockEndSteal_NAME = "BlockEndSteal";
-		public static final String BlockEndRuby_NAME = "BlockEndRuby";
-		public static final String BlockEndSapphire_NAME = "BlockEndSapphire";
+		public static final String BlockEndAluminiumOre_NAME = "BlockEndAluminiumOre";
+		public static final String BlockEndPlatinumOre_NAME = "BlockEndPlatinumOre";
+		public static final String BlockEndSilverOre_NAME = "BlockEndSilverOre";
+		public static final String BlockEndStealOre_NAME = "BlockEndStealOre";
+		public static final String BlockEndRubyOre_NAME = "BlockEndRubyOre";
+		public static final String BlockEndSapphireOre_NAME = "BlockEndSapphireOre";
 		
 	//Items
 		public static final String ItemEndIngot_NAME = "ItemEndIngot";

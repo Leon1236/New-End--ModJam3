@@ -5,6 +5,7 @@ import java.io.File;
 import net.minecraft.creativetab.CreativeTabs;
 
 import com.leon1236.newend.blocks.EndBlocks;
+import com.leon1236.newend.blocks.EndForestryBlocks;
 import com.leon1236.newend.blocks.EndIC2Blocks;
 import com.leon1236.newend.blocks.EndVanillaBlocks;
 import com.leon1236.newend.core.handlers.ConfigurationHandler;
@@ -80,6 +81,9 @@ public class NewEnd_Main {
   		//IC2 End Ores
   		EndIC2Blocks.init();
   		
+  	   //Forestry End Ores
+  		EndForestryBlocks.init();
+  		
   		//Crafting
   		Crafting.loadrecipe();
   		
@@ -97,14 +101,7 @@ public class NewEnd_Main {
 //init loads all gui's, listeners and more
   	@EventHandler
   	public void init(FMLInitializationEvent event){
-  		
-  /*	//IC2 integration
-	    if (Loader.isModLoaded("IC2")) 
-	    {
-			Integration.loadIndustrialCraft();
-			System.out.println("IC2 macerator recipe enabled");
-	    }
-   */ 
+ 
   		
   	}
 //postInit loads everything that has to load after all mods have been loaded

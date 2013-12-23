@@ -1,12 +1,13 @@
 package com.leon1236.newend.blocks;
 
+import net.minecraft.block.Block;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
+
 import com.leon1236.newend.lib.Block_ID;
 import com.leon1236.newend.lib.Strings;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.block.Block;
-import net.minecraft.item.ItemStack;
-import net.minecraftforge.oredict.OreDictionary;
 
 public class EndIC2Blocks {
 	
@@ -38,6 +39,7 @@ public class EndIC2Blocks {
 		OreDictionary.registerOre("oreLead", new ItemStack(BlockEndLeadOre));
 		OreDictionary.registerOre("oreBronze", new ItemStack(BlockEndBronzeOre));
 		OreDictionary.registerOre("oreUranium", new ItemStack(BlockEndUraniumOre));
+		
 		
 	}
 

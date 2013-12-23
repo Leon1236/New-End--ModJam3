@@ -5,6 +5,7 @@ import java.util.logging.Level;
 
 import net.minecraftforge.common.Configuration;
 
+import com.leon1236.newend.core.helper.WorldGenHelper;
 import com.leon1236.newend.lib.Block_ID;
 import com.leon1236.newend.lib.Item_ID;
 import com.leon1236.newend.lib.References;
@@ -49,7 +50,10 @@ public class ConfigurationHandler {
                         Block_ID.BlockEndLeadOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndLeadOre_NAME, Block_ID.BlockEndLeadOre_ID_DEFAULT).getInt(Block_ID.BlockEndLeadOre_ID_DEFAULT);
                         Block_ID.BlockEndBronzeOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndBronzeOre_NAME, Block_ID.BlockEndBronzeOre_ID_DEFAULT).getInt(Block_ID.BlockEndBronzeOre_ID_DEFAULT);
                         Block_ID.BlockEndUraniumOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndUraniumOre_NAME, Block_ID.BlockEndUraniumOre_ID_DEFAULT).getInt(Block_ID.BlockEndUraniumOre_ID_DEFAULT);
-                        
+                     
+                        //End Forestry Ores
+                        Block_ID.BlockEndApatiteOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndApatiteOre_NAME, Block_ID.BlockEndApatiteOre_ID_DEFAULT).getInt(Block_ID.BlockEndApatiteOre_ID_DEFAULT);
+ 
                         //Tools
                         Item_ID.EndAxe_ID = config.get(config.CATEGORY_ITEM, Strings.EndAxe_NAME, Item_ID.EndAxe_ID_DEFAULT).getInt(Item_ID.EndAxe_ID_DEFAULT);
                         Item_ID.EndHoe_ID = config.get(config.CATEGORY_ITEM, Strings.EndHoe_NAME, Item_ID.EndHoe_ID_DEFAULT).getInt(Item_ID.EndHoe_ID_DEFAULT);
@@ -69,6 +73,26 @@ public class ConfigurationHandler {
                         Item_ID.ItemEndArmor_Chestplate_ID = config.get(config.CATEGORY_ITEM, Strings.ItemEndArmor_Chestplate_NAME, Item_ID.ItemEndArmor_Chestplate_ID_DEFAULT).getInt(Item_ID.ItemEndArmor_Chestplate_ID_DEFAULT);
                         Item_ID.ItemEndArmor_Leggings_ID = config.get(config.CATEGORY_ITEM, Strings.ItemEndArmor_Leggings_NAME, Item_ID.ItemEndArmor_Leggings_ID_DEFAULT).getInt(Item_ID.ItemEndArmor_Leggings_ID_DEFAULT);
                         Item_ID.ItemEndArmor_Boots_ID = config.get(config.CATEGORY_ITEM, Strings.ItemEndArmor_Boots_NAME, Item_ID.ItemEndArmor_Boots_ID_DEFAULT).getInt(Item_ID.ItemEndArmor_Boots_ID_DEFAULT);
+                        
+                        
+                      //WORLD GEN
+            			WorldGenHelper.WORLDGEN_BlockEndCoalOre = config.get("End World Generation", "End Coal Ore", WorldGenHelper.WORLDGEN_BlockEndCoalOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndCoalOre_DEFAULT);
+            			WorldGenHelper.WORLDGEN_BlockEndRedstoneOre = config.get("End World Generation", "End Redstone Ore", WorldGenHelper.WORLDGEN_BlockEndRedstoneOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndRedstoneOre_DEFAULT);
+            			WorldGenHelper.WORLDGEN_BlockEndLapisOre = config.get("End World Generation", "End Lapis Ore", WorldGenHelper.WORLDGEN_BlockEndLapisOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndLapisOre_DEFAULT);
+            			WorldGenHelper.WORLDGEN_BlockEndQuartzOre = config.get("End World Generation", "End Quartz Ore", WorldGenHelper.WORLDGEN_BlockEndQuartzOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndQuartzOre_DEFAULT);
+            			WorldGenHelper.WORLDGEN_BlockEndIronOre = config.get("End World Generation", "End Iron Ore", WorldGenHelper.WORLDGEN_BlockEndIronOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndIronOre_DEFAULT);
+            			WorldGenHelper.WORLDGEN_BlockEndGoldOre = config.get("End World Generation", "End Gold Ore", WorldGenHelper.WORLDGEN_BlockEndGoldOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndGoldOre_DEFAULT);
+            			WorldGenHelper.WORLDGEN_BlockEndDiamondOre = config.get("End World Generation", "End Diamond Ore", WorldGenHelper.WORLDGEN_BlockEndDiamondOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndDiamondOre_DEFAULT);
+            			WorldGenHelper.WORLDGEN_BlockEndEmeraldOre = config.get("End World Generation", "End Emerald Ore", WorldGenHelper.WORLDGEN_BlockEndEmeraldOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndEmeraldOre_DEFAULT);
+            			
+            			WorldGenHelper.WORLDGEN_BlockEndCopperOre = config.get("IC2 End World Generation", "End Copper Ore", WorldGenHelper.WORLDGEN_BlockEndCopperOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndCopperOre_DEFAULT);
+            			WorldGenHelper.WORLDGEN_BlockEndTinOre = config.get("IC2 End World Generation", "End Tin Ore", WorldGenHelper.WORLDGEN_BlockEndTinOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndTinOre_DEFAULT);
+            			WorldGenHelper.WORLDGEN_BlockEndLeadOre = config.get("IC2 End World Generation", "End Lead Ore", WorldGenHelper.WORLDGEN_BlockEndLeadOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndLeadOre_DEFAULT);
+            			WorldGenHelper.WORLDGEN_BlockEndBronzeOre = config.get("IC2 End World Generation", "End Bronze Ore", WorldGenHelper.WORLDGEN_BlockEndBronzeOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndBronzeOre_DEFAULT);
+            			WorldGenHelper.WORLDGEN_BlockEndUraniumOre = config.get("IC2 End World Generation", "End Uranium Ore", WorldGenHelper.WORLDGEN_BlockEndUraniumOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndUraniumOre_DEFAULT);
+                        
+            			WorldGenHelper.WORLDGEN_BlockEndApatiteOre = config.get("Forestry End World Generation", "End Apatite Ore", WorldGenHelper.WORLDGEN_BlockEndApatiteOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndApatiteOre_DEFAULT);
+                        
                         
                 }
                 

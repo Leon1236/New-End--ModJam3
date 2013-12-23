@@ -26,6 +26,9 @@ public class Block_ID {
         public static final int BlockEndLeadOre_ID_DEFAULT = 3020;
         public static final int BlockEndBronzeOre_ID_DEFAULT = 3021;
         public static final int BlockEndUraniumOre_ID_DEFAULT = 3022;
+        
+    //Forestry ores
+        public static final int BlockEndApatiteOre_ID_DEFAULT = 3023;
       
         
 //Mod Blocks
@@ -52,6 +55,9 @@ public class Block_ID {
         public static int BlockEndLeadOre_ID;
         public static int BlockEndBronzeOre_ID;
         public static int BlockEndUraniumOre_ID;
+        
+//Forestry Ores
+        public static int BlockEndApatiteOre_ID;
        
 
 }
