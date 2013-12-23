@@ -12,6 +12,7 @@ import com.leon1236.newend.lib.References;
 import com.leon1236.newend.lib.Strings;
 
 import cpw.mods.fml.common.FMLLog;
+import cpw.mods.fml.common.Loader;
 
 public class ConfigurationHandler {
 
@@ -44,13 +45,15 @@ public class ConfigurationHandler {
                         Block_ID.BlockEndDiamondOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndDiamondOre_NAME, Block_ID.BlockEndDiamondOre_ID_DEFAULT).getInt(Block_ID.BlockEndDiamondOre_ID_DEFAULT);
                         Block_ID.BlockEndEmeraldOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndEmeraldOre_NAME, Block_ID.BlockEndEmeraldOre_ID_DEFAULT).getInt(Block_ID.BlockEndEmeraldOre_ID_DEFAULT);
                         
+                     if (Loader.isModLoaded("IC2")){
                         //End IC2 Ores
                         Block_ID.BlockEndCopperOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndCopperOre_NAME, Block_ID.BlockEndCopperOre_ID_DEFAULT).getInt(Block_ID.BlockEndCopperOre_ID_DEFAULT);
                         Block_ID.BlockEndTinOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndTinOre_NAME, Block_ID.BlockEndTinOre_ID_DEFAULT).getInt(Block_ID.BlockEndTinOre_ID_DEFAULT);
                         Block_ID.BlockEndLeadOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndLeadOre_NAME, Block_ID.BlockEndLeadOre_ID_DEFAULT).getInt(Block_ID.BlockEndLeadOre_ID_DEFAULT);
                         Block_ID.BlockEndBronzeOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndBronzeOre_NAME, Block_ID.BlockEndBronzeOre_ID_DEFAULT).getInt(Block_ID.BlockEndBronzeOre_ID_DEFAULT);
                         Block_ID.BlockEndUraniumOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndUraniumOre_NAME, Block_ID.BlockEndUraniumOre_ID_DEFAULT).getInt(Block_ID.BlockEndUraniumOre_ID_DEFAULT);
-                     
+                        }
+                        
                         //End Forestry Ores
                         Block_ID.BlockEndApatiteOre_ID = config.get(config.CATEGORY_BLOCK, Strings.BlockEndApatiteOre_NAME, Block_ID.BlockEndApatiteOre_ID_DEFAULT).getInt(Block_ID.BlockEndApatiteOre_ID_DEFAULT);
  
@@ -85,12 +88,14 @@ public class ConfigurationHandler {
             			WorldGenHelper.WORLDGEN_BlockEndDiamondOre = config.get("End World Generation", "End Diamond Ore", WorldGenHelper.WORLDGEN_BlockEndDiamondOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndDiamondOre_DEFAULT);
             			WorldGenHelper.WORLDGEN_BlockEndEmeraldOre = config.get("End World Generation", "End Emerald Ore", WorldGenHelper.WORLDGEN_BlockEndEmeraldOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndEmeraldOre_DEFAULT);
             			
+            		if (Loader.isModLoaded("IC2")){
             			WorldGenHelper.WORLDGEN_BlockEndCopperOre = config.get("IC2 End World Generation", "End Copper Ore", WorldGenHelper.WORLDGEN_BlockEndCopperOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndCopperOre_DEFAULT);
             			WorldGenHelper.WORLDGEN_BlockEndTinOre = config.get("IC2 End World Generation", "End Tin Ore", WorldGenHelper.WORLDGEN_BlockEndTinOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndTinOre_DEFAULT);
             			WorldGenHelper.WORLDGEN_BlockEndLeadOre = config.get("IC2 End World Generation", "End Lead Ore", WorldGenHelper.WORLDGEN_BlockEndLeadOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndLeadOre_DEFAULT);
             			WorldGenHelper.WORLDGEN_BlockEndBronzeOre = config.get("IC2 End World Generation", "End Bronze Ore", WorldGenHelper.WORLDGEN_BlockEndBronzeOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndBronzeOre_DEFAULT);
             			WorldGenHelper.WORLDGEN_BlockEndUraniumOre = config.get("IC2 End World Generation", "End Uranium Ore", WorldGenHelper.WORLDGEN_BlockEndUraniumOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndUraniumOre_DEFAULT);
-                        
+            			}
+            		
             			WorldGenHelper.WORLDGEN_BlockEndApatiteOre = config.get("Forestry End World Generation", "End Apatite Ore", WorldGenHelper.WORLDGEN_BlockEndApatiteOre_DEFAULT).getBoolean(WorldGenHelper.WORLDGEN_BlockEndApatiteOre_DEFAULT);
                         
                         

@@ -19,6 +19,7 @@ import com.leon1236.newend.lib.References;
 import com.leon1236.newend.lib.Tab_newend;
 import com.leon1236.newend.world.NewEnd_oregen;
 
+import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.SidedProxy;
@@ -41,7 +42,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 		
     		 clientSideRequired 	= true, 
     		 serverSideRequired 	= false,
-    		 channels            =(References.CHANNEL_NAME)
+    		 channels               =(References.CHANNEL_NAME)
 		)
 
 
@@ -78,9 +79,6 @@ public class NewEnd_Main {
   		//Vanilla End Ores
   		EndVanillaBlocks.init();
   		
-  		//IC2 End Ores
-  		EndIC2Blocks.init();
-  		
   	   //Forestry End Ores
   		EndForestryBlocks.init();
   		
@@ -101,9 +99,16 @@ public class NewEnd_Main {
 //init loads all gui's, listeners and more
   	@EventHandler
   	public void init(FMLInitializationEvent event){
- 
-  		
+  	
+  	 //IC2 integration
+	    if (Loader.isModLoaded("IC2")){
+  		    EndIC2Blocks.init();
+			System.out.println("New end IC2 integration enabled");}
+		else
+			System.out.println("IC2 not found");
+	
   	}
+  	
 //postInit loads everything that has to load after all mods have been loaded
   	@EventHandler
   	public void postInit(FMLPostInitializationEvent event){
